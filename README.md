@@ -70,4 +70,13 @@ Example Workflow -
         A custom story is generated based on the inputs.
     Save the generated story.
         The saved story file will appear in the Stories/ folder, e.g., Stories/story_1.txt.
+        
+Troubleshooting -
+
+    Error: "No story to save":
+        Ensure you've generated a story before trying to save it.
+    Error: Missing API Key:
+        Verify that your API key is correctly set in the code.
+    Dependencies not installed:
+        Run pip install kivy google-generativeai to install required packages.
   
