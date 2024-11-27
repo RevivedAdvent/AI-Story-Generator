@@ -51,7 +51,7 @@ Usage -
     Save the story to the Stories/ folder by clicking Save Story.
     Use Refresh to clear inputs and the generated story for a new session.
 
-Example Workflow
+Example Workflow -
 
     Input:
         Genre: Fantasy
