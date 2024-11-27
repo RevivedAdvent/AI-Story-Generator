@@ -1,0 +1,81 @@
+<MainScreen>:
+
+    FloatLayout:
+
+        Image:
+
+            source: "Images/BGPIC.jpg"
+            fit_mode: "cover"
+
+        Label:
+
+            text: "Welcome to Story Generator"
+            font_size: "40sp"
+            size_hint: (0.8, 0.1)
+            pos_hint: {"center_x": 0.5, "y": 0.9}
+            color: (1, 0.75, 0.8, 1)
+
+        TextInput:
+
+            id: genre_input
+            background_color: (0, 0, 0, 1)
+            foreground_color: (1, 1, 1, 1)
+            hint_text: "Enter the genre (e.g., Fantasy, Sci-Fi)"
+            size_hint: (0.8, 0.1)
+            pos_hint: {"center_x": 0.5, "y": 0.75}
+            multiline: False
+
+        TextInput:
+
+            id: word_count_input
+            background_color: (0, 0, 0, 1)
+            foreground_color: (1, 1, 1, 1)
+            hint_text: "Enter the word count (e.g., 300, 500)"
+            size_hint: (0.8, 0.1)
+            pos_hint: {"center_x": 0.5, "y": 0.65}
+            multiline: False
+
+        TextInput:
+
+            id: extra_info_input
+            background_color: (0, 0, 0, 1)
+            foreground_color: (1, 1, 1, 1)
+            hint_text: "Provide more details for the story"
+            size_hint: (0.8, 0.1)
+            pos_hint: {"center_x": 0.5, "y": 0.55}
+            multiline: False
+
+        Button:
+
+            text: "Generate Story"
+            size_hint: (0.2, 0.1)
+            pos_hint: {"center_x": 0.25, "y": 0.4}
+            background_color: (0, 0, 0, 1)
+            on_press: root.generate_story()
+
+        Button:
+
+            text: "Save Story"
+            size_hint: (0.2, 0.1)
+            pos_hint: {"center_x": 0.5, "y": 0.4}
+            background_color: (0, 0, 0, 1)
+            on_press: root.save_story()
+
+        Button:
+
+            text: "Refresh"
+            size_hint: (0.2, 0.1)
+            pos_hint: {"center_x": 0.75, "y": 0.4}
+            background_color: (0, 0, 0, 1)
+            on_press: root.refresh()
+
+        TextInput:
+
+            id: story_output
+            background_color: (0, 0, 0, 1)
+            foreground_color: (1, 1, 1, 1)
+            readonly: True
+            hint_text: "Your story will appear here..."
+            size_hint: (0.8, 0.25)
+            pos_hint: {"center_x": 0.5, "y": 0.1}
+            multiline: True
