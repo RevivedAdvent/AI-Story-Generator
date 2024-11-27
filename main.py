@@ -3,7 +3,7 @@ from kivy.uix.screenmanager import Screen
 import os
 import google.generativeai as genai
 
-API_KEY = "AIzaSyAVAmMVNwMEeHy7wOcCMYob_vH85zWUIvY"
+API_KEY = "" #ADD YOUR API KEY HERE
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
