@@ -1,7 +1,7 @@
 # AI-Story-Generator
 This is an AI-powered story generation application built with Kivy and Google Generative AI. The app allows users to create creative stories based on input genres, word count, and additional prompts. It also provides functionality to save generated stories and refresh the input fields for new stories.
 
-Features-
+Features -
 
   Dynamic Story Generation:
       Generate creative stories based on user-defined inputs like genre, word count, and extra details.
@@ -10,7 +10,7 @@ Features-
   Input Reset:
       Clear inputs and start fresh using the refresh functionality.
       
-Prerequisites-
+Prerequisites -
 
     Python 3.7+
     A Google Generative AI API Key.
@@ -38,6 +38,13 @@ Installation and Setup -
   Run the Application:
 
     python main.py
+
+File Structure -
+
+    ├── main.py          # The main application script
+    ├── storygenerator.kv # Kivy layout file for the GUI
+    ├── Stories/         # Folder where stories are saved (created automatically)
+    └── README.md        # Documentation
 
 Usage -
 
