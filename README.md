@@ -22,7 +22,7 @@ Installation and Setup -
 
   Clone the Repository:
 
-    git clone https://github.com/yourusername/ai-story-generator.git
+    git clone https://github.com/RevivedAdvent/AI-Story-Generator
     cd ai-story-generator
 
   Install Dependencies: Use pip to install the required libraries:
