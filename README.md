@@ -45,6 +45,8 @@ File Structure -
     ├── storygenerator.kv # Kivy layout file for the GUI
     ├── Stories/         # Folder where stories are saved (created automatically)
     └── README.md        # Documentation
+    └── Images/        # Contains background images for the GUI
+    
 
 Usage -
 
